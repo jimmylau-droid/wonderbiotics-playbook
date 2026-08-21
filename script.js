@@ -33,7 +33,6 @@ window.initWonderMatrix = function () {
   const leverCaption = document.querySelector("#lever-caption");
   const messageAngles = document.querySelector("#message-angle-list");
   const exampleWrap = document.querySelector("#matrix-example-wrap");
-  const leverArt = document.querySelector("#lever-art");
   if (!tabs.length || !number || !title || !description || !example || !leverArt || !leverImage || !leverCaption) return;
   tabs.forEach((tab) => {
     tab.addEventListener("click", () => {
