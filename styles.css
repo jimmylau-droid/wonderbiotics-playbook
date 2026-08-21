@@ -84,8 +84,9 @@ h1 { max-width: 1000px; font-size: clamp(55px, 7.2vw, 108px); line-height: .98; 
 .genesis { color: #fff; background: var(--blue-dark); }
 .genesis .eyebrow { color: var(--sky); }
 .genesis .split-heading > p { color: #bed7ff; }
-.genesis-flow { display: grid; grid-template-columns: 1fr 38px 1fr 38px 1fr 38px 1fr; align-items: stretch; }
+.genesis-flow { display: grid; grid-template-columns: minmax(0,1fr) 38px minmax(0,1fr) 38px minmax(0,1fr) 38px minmax(0,1fr); align-items: stretch; }
 .genesis-flow article { min-height: 265px; display: flex; flex-direction: column; padding: 28px; border: 1px solid rgba(255,255,255,.22); background: rgba(255,255,255,.05); }
+.genesis-flow article > * { min-width: 0; overflow-wrap: anywhere; }
 .genesis-flow span { color: var(--sky); font-size: 10px; font-weight: 800; }
 .genesis-flow strong { margin-top: 60px; font-size: 20px; line-height: 1.3; }
 .genesis-flow p { margin: 14px 0 0; color: #bed0e8; font-size: 13px; line-height: 1.55; }
