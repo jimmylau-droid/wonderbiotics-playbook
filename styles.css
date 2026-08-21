@@ -361,3 +361,62 @@ footer { display: flex; justify-content: space-between; padding: 25px 28px; colo
   .focus-band { margin-top: 20px; padding: 21px 22px; }
   .variation-step { min-height: 0; padding: 20px; }
 }
+
+/* Pre-shift UX polish: improve scanning and responsive flow without changing copy. */
+.hero-inner { max-width: 980px; }
+.hero h1 { max-width: 850px; text-wrap: balance; }
+.hero-copy { max-width: 620px; }
+.signal-panel { max-width: var(--max); margin: 0 auto; width: 100%; }
+.proven { background: #f2f6fb; }
+.proven .section-heading { max-width: 1120px; }
+.proven-grid { grid-template-columns: minmax(0,1.3fr) repeat(2,minmax(0,1fr)); }
+.proven-card { display: flex; flex-direction: column; }
+.proven-card .proof-note, .proven-card > p:last-of-type { margin-top: auto; }
+.proven-card h3 { max-width: 330px; }
+.source-table-wrap { overflow: hidden; }
+.source-table-head { position: relative; }
+.source-table-head::after { content: "Scroll horizontally to compare all columns"; position: absolute; right: 28px; bottom: 18px; color: #8a96a8; font-size: 10px; }
+.source-table-scroll { -webkit-overflow-scrolling: touch; }
+.source-table tbody tr:nth-child(even) { background: #fbfdff; }
+.source-table tbody th { background: transparent; }
+.focus-band { border-left: 4px solid var(--sky); }
+.variation-map { grid-template-columns: repeat(4,minmax(0,1fr)); }
+.variation-map > i { display: none; }
+.variation-step { min-height: 178px; }
+
+@media (max-width: 1100px) {
+  .site-header { grid-template-columns: 1fr auto; }
+  .site-header nav { grid-column: 1 / -1; grid-row: 2; display: none; }
+  .site-header { height: 66px; }
+  .hero-inner { padding-top: 90px; }
+  .proven-grid { grid-template-columns: 1fr 1fr; }
+  .primary-proof { grid-column: 1 / -1; }
+}
+
+@media (max-width: 700px) {
+  .site-header { padding: 0 16px; }
+  .brand { font-size: 12px; }
+  .security-label { font-size: 9px; }
+  .hero { min-height: 720px; }
+  .hero-inner { width: calc(100% - 40px); padding: 68px 0 46px; }
+  .hero h1 { font-size: clamp(44px, 13vw, 72px); }
+  .hero-copy { margin-top: 24px; font-size: 17px; }
+  .hero-actions { margin-top: 28px; }
+  .signal-panel { grid-template-columns: repeat(2,1fr); }
+  .signal-panel div { min-height: 82px; justify-content: flex-start; padding: 0 18px; }
+  .signal-panel strong { font-size: 25px; }
+  .signal-panel span { font-size: 10px; }
+  .proven-grid { grid-template-columns: 1fr; }
+  .primary-proof { grid-column: auto; }
+  .source-table-head::after { position: static; display: block; margin-top: 16px; }
+  .focus-band { gap: 14px; }
+  .variation-map { grid-template-columns: 1fr 1fr; }
+}
+
+@media (max-width: 480px) {
+  .hero { min-height: 690px; }
+  .hero-inner { width: calc(100% - 32px); }
+  .signal-panel div { padding: 0 12px; gap: 9px; }
+  .signal-panel strong { font-size: 22px; }
+  .variation-map { grid-template-columns: 1fr; }
+}
