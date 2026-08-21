@@ -46,6 +46,11 @@
       observer.observe(previewDocument.body, { childList: true, subtree: true });
       previewDocument.body.__editingObserver = observer;
     }
+    // Always let the shared published snapshot win over an older local draft
+    // when the editor opens. This keeps the editor aligned with the microsite.
+    if (previewDocument && previewDocument.defaultView && previewDocument.defaultView.WonderContent) {
+      previewDocument.defaultView.WonderContent.loadPublishedPage().then(enableEditing);
+    }
   });
   document.getElementById('save-content').addEventListener('click', function () {
     var page = pageFromPreview();
