@@ -31,6 +31,7 @@ window.initWonderMatrix = function () {
   const hookExamples = document.querySelector("#hook-examples");
   const settingExamples = document.querySelector("#setting-examples");
   const scriptExample = document.querySelector("#script-example");
+  const graphicExamples = document.querySelector("#graphic-examples");
   const leverImage = document.querySelector("#lever-image");
   const leverCaption = document.querySelector("#lever-caption");
   const messageAngles = document.querySelector("#message-angle-list");
@@ -57,6 +58,7 @@ window.initWonderMatrix = function () {
       if (hookExamples) hookExamples.hidden = index !== 1;
       if (settingExamples) settingExamples.hidden = index !== 2;
       if (scriptExample) scriptExample.hidden = index !== 3;
+      if (graphicExamples) graphicExamples.hidden = index !== 4;
     });
   });
   if (leverArt) leverArt.dataset.index = "0";
@@ -66,5 +68,6 @@ window.initWonderMatrix = function () {
   if (hookExamples) hookExamples.hidden = true;
   if (settingExamples) settingExamples.hidden = true;
   if (scriptExample) scriptExample.hidden = true;
+  if (graphicExamples) graphicExamples.hidden = true;
 };
 window.initWonderMatrix();
