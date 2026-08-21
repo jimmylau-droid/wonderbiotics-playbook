@@ -33,7 +33,7 @@ window.initWonderMatrix = function () {
   const leverCaption = document.querySelector("#lever-caption");
   const messageAngles = document.querySelector("#message-angle-list");
   const exampleWrap = document.querySelector("#matrix-example-wrap");
-  if (!tabs.length || !number || !title || !description || !example || !leverArt || !leverImage || !leverCaption) return;
+  if (!tabs.length || !number || !title || !description) return;
   tabs.forEach((tab) => {
     tab.addEventListener("click", () => {
       const index = Number(tab.dataset.index);
@@ -45,17 +45,17 @@ window.initWonderMatrix = function () {
       number.textContent = `VARIABLE ${String(index + 1).padStart(2, "0")}`;
       title.textContent = variables[index].title;
       description.textContent = variables[index].description;
-      example.textContent = variables[index].example;
-      leverArt.dataset.index = String(index);
-      leverImage.src = leverVisuals[index][0];
-      leverCaption.textContent = leverVisuals[index][1];
+      if (example) example.textContent = variables[index].example;
+      if (leverArt) leverArt.dataset.index = String(index);
+      if (leverImage) leverImage.src = leverVisuals[index][0];
+      if (leverCaption) leverCaption.textContent = leverVisuals[index][1];
       if (messageAngles) messageAngles.hidden = index !== 0;
       if (exampleWrap) exampleWrap.hidden = index === 0;
       if (leverArt) leverArt.hidden = index === 0;
       if (hookExamples) hookExamples.hidden = index !== 1;
     });
   });
-  leverArt.dataset.index = "0";
+  if (leverArt) leverArt.dataset.index = "0";
   if (messageAngles) messageAngles.hidden = false;
   if (exampleWrap) exampleWrap.hidden = true;
   if (leverArt) leverArt.hidden = true;
