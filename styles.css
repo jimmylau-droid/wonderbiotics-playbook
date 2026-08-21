@@ -383,6 +383,13 @@ footer { display: flex; justify-content: space-between; padding: 25px 28px; colo
 .static-proof > p, .watch-proof > p { margin-top: 22px; }
 .static-proof > a { margin-top: auto; }
 .watch-proof .watch-row { margin-top: 4px; }
+
+/* Reference layout: the secondary proof cards share the primary card's height. */
+.proven-grid > .static-proof,
+.proven-grid > .watch-proof { align-self: stretch; min-height: 330px; }
+.static-proof .big-stat { align-items: baseline; flex-direction: row; gap: 12px; }
+.static-proof .big-stat strong { white-space: nowrap; }
+.static-proof .big-stat span { display: block; }
 .source-table-wrap { overflow: hidden; }
 .source-table-head { position: relative; }
 .source-table-head::after { content: "Scroll horizontally to compare all columns"; position: absolute; right: 28px; bottom: 18px; color: #8a96a8; font-size: 10px; }
