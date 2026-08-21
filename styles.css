@@ -169,6 +169,12 @@ h1 { max-width: 1000px; font-size: clamp(55px, 7.2vw, 108px); line-height: .98; 
 .graphic-example-grid figure { margin: 0; min-width: 0; border: 1px solid var(--line); background: #fff; }
 .graphic-example-grid img { display: block; width: 100%; aspect-ratio: 9 / 14; object-fit: cover; }
 .graphic-example-grid figcaption { padding: 8px; color: var(--muted); font-size: 10px; line-height: 1.3; }
+.format-examples[hidden] { display: none; }
+.format-examples { margin-top: 24px; }
+.format-example-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 10px; }
+.format-example-grid figure { margin: 0; min-width: 0; border: 1px solid var(--line); background: #fff; }
+.format-example-grid video { display: block; width: 100%; aspect-ratio: 9 / 14; object-fit: cover; background: #111; }
+.format-example-grid figcaption { padding: 8px; color: var(--muted); font-size: 10px; line-height: 1.3; }
 .lever-art { position: relative; overflow: hidden; min-height: 220px; margin: 18px 0 0; border: 1px solid var(--line); background: #fff; }
 .lever-art img { display: block; width: 100%; height: 220px; object-fit: cover; }
 .lever-art[data-index="1"] img, .lever-art[data-index="7"] img { object-fit: contain; background: #f7f8fa; }
