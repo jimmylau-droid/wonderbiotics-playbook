@@ -267,6 +267,8 @@ h1 { max-width: 1000px; font-size: clamp(55px, 7.2vw, 108px); line-height: .98; 
 .close-statement a { margin-top: 38px; color: var(--sky); font-size: 12px; font-weight: 800; }
 footer { display: flex; justify-content: space-between; padding: 25px 28px; color: #a4a4a4; background: #0b0b0b; border-top: 1px solid rgba(255,255,255,.14); font-size: 10px; }
 
+/* Desktop presentation layout. The microsite is intended for computer viewing;
+   keep the core process diagrams stable rather than reflowing them into narrow cards. */
 @media (max-width: 900px) {
   .publish-setup { grid-template-columns: 1fr; align-items: start; }
   .publish-setup a { padding-bottom: 0; }
@@ -280,10 +282,10 @@ footer { display: flex; justify-content: space-between; padding: 25px 28px; colo
   .split-heading { grid-template-columns: 1fr; gap: 25px; }
   .before-after { grid-template-columns: 1fr; }
   .transition-arrow { height: 60px; transform: rotate(90deg); }
-  .genesis-flow { grid-template-columns: 1fr; }
-  .genesis-flow article:nth-of-type(n) { grid-column: auto; }
-  .genesis-flow article { min-height: 220px; }
-  .genesis-arrow { height: 42px; transform: rotate(90deg); }
+  .genesis-flow { grid-template-columns: minmax(0,1fr) 28px minmax(0,1fr) 28px minmax(0,1fr) 28px minmax(0,1fr); gap: 8px; }
+  .genesis-flow article { min-height: 265px; padding: 22px 18px; }
+  .genesis-flow article strong { font-size: 17px; }
+  .genesis-arrow { height: auto; transform: none; }
   .genesis-note { grid-template-columns: 1fr; gap: 8px; }
   .voc-intro { grid-template-columns: 1fr; gap: 12px; }
   .voc-sources, .voc-process { grid-template-columns: 1fr; }
