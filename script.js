@@ -31,6 +31,8 @@ window.initWonderMatrix = function () {
   const leverImage = document.querySelector("#lever-image");
   const leverCaption = document.querySelector("#lever-caption");
   const messageAngles = document.querySelector("#message-angle-list");
+  const exampleWrap = document.querySelector("#matrix-example-wrap");
+  const leverArt = document.querySelector("#lever-art");
   if (!tabs.length || !number || !title || !description || !example || !leverArt || !leverImage || !leverCaption) return;
   tabs.forEach((tab) => {
     tab.addEventListener("click", () => {
@@ -48,9 +50,13 @@ window.initWonderMatrix = function () {
       leverImage.src = leverVisuals[index][0];
       leverCaption.textContent = leverVisuals[index][1];
       if (messageAngles) messageAngles.hidden = index !== 0;
+      if (exampleWrap) exampleWrap.hidden = index === 0;
+      if (leverArt) leverArt.hidden = index === 0;
     });
   });
   leverArt.dataset.index = "0";
   if (messageAngles) messageAngles.hidden = false;
+  if (exampleWrap) exampleWrap.hidden = true;
+  if (leverArt) leverArt.hidden = true;
 };
 window.initWonderMatrix();
