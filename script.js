@@ -33,6 +33,7 @@ window.initWonderMatrix = function () {
   const scriptExample = document.querySelector("#script-example");
   const graphicExamples = document.querySelector("#graphic-examples");
   const formatExamples = document.querySelector("#format-examples");
+  const ctaExamples = document.querySelector("#cta-examples");
   const leverImage = document.querySelector("#lever-image");
   const leverCaption = document.querySelector("#lever-caption");
   const messageAngles = document.querySelector("#message-angle-list");
@@ -61,6 +62,7 @@ window.initWonderMatrix = function () {
       if (scriptExample) scriptExample.hidden = index !== 3;
       if (graphicExamples) graphicExamples.hidden = index !== 4;
       if (formatExamples) formatExamples.hidden = index !== 5;
+      if (ctaExamples) ctaExamples.hidden = index !== 6;
     });
   });
   if (leverArt) leverArt.dataset.index = "0";
@@ -72,5 +74,6 @@ window.initWonderMatrix = function () {
   if (scriptExample) scriptExample.hidden = true;
   if (graphicExamples) graphicExamples.hidden = true;
   if (formatExamples) formatExamples.hidden = true;
+  if (ctaExamples) ctaExamples.hidden = true;
 };
 window.initWonderMatrix();
