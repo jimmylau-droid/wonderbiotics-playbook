@@ -29,6 +29,7 @@ window.initWonderMatrix = function () {
   const example = document.querySelector("#matrix-example");
   const leverArt = document.querySelector("#lever-art");
   const hookExamples = document.querySelector("#hook-examples");
+  const settingExamples = document.querySelector("#setting-examples");
   const leverImage = document.querySelector("#lever-image");
   const leverCaption = document.querySelector("#lever-caption");
   const messageAngles = document.querySelector("#message-angle-list");
@@ -53,6 +54,7 @@ window.initWonderMatrix = function () {
       if (exampleWrap) exampleWrap.hidden = index === 0;
       if (leverArt) leverArt.hidden = index === 0;
       if (hookExamples) hookExamples.hidden = index !== 1;
+      if (settingExamples) settingExamples.hidden = index !== 2;
     });
   });
   if (leverArt) leverArt.dataset.index = "0";
@@ -60,5 +62,6 @@ window.initWonderMatrix = function () {
   if (exampleWrap) exampleWrap.hidden = true;
   if (leverArt) leverArt.hidden = true;
   if (hookExamples) hookExamples.hidden = true;
+  if (settingExamples) settingExamples.hidden = true;
 };
 window.initWonderMatrix();
