@@ -65,6 +65,7 @@
           var element = document.querySelector(tag);
           if (element && page[tag] !== undefined && !document.body.classList.contains('editor-page')) element.innerHTML = page[tag];
         });
+        if (typeof window.initWonderMatrix === 'function') window.initWonderMatrix();
         return page;
       })
       .catch(function () { return null; });
