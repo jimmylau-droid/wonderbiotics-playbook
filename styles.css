@@ -132,6 +132,12 @@ h1 { max-width: 1000px; font-size: clamp(55px, 7.2vw, 108px); line-height: .98; 
 .test-example { margin-top: 32px; padding: 24px; border-left: 4px solid var(--coral); background: var(--white); }
 .test-example small { font-size: 10px; font-weight: 800; }
 .test-example p { margin: 10px 0 0; line-height: 1.5; }
+.message-angle-list { margin: 24px 0 0; border-top: 1px solid var(--line); }
+.message-angle-list article { display: grid; grid-template-columns: 34px 1fr auto; gap: 12px; align-items: start; padding: 13px 0; border-bottom: 1px solid var(--line); }
+.message-angle-list article > b { color: var(--blue); font-size: 11px; }
+.message-angle-list strong { font-size: 14px; }
+.message-angle-list p { margin: 3px 0 0; color: var(--muted); font-size: 11px; line-height: 1.4; }
+.message-angle-list article > span { align-self: center; color: var(--blue); font-size: 9px; font-weight: 800; text-transform: uppercase; }
 .lever-art { position: relative; overflow: hidden; min-height: 220px; margin: 18px 0 0; border: 1px solid var(--line); background: #fff; }
 .lever-art img { display: block; width: 100%; height: 220px; object-fit: cover; }
 .lever-art[data-index="1"] img, .lever-art[data-index="7"] img { object-fit: contain; background: #f7f8fa; }
