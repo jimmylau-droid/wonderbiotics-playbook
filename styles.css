@@ -378,6 +378,8 @@ footer { display: flex; justify-content: space-between; padding: 25px 28px; colo
 .proven-grid > .static-proof,
 .proven-grid > .watch-proof { align-self: start; min-height: 0; }
 .static-proof .big-stat { margin-top: 4px; }
+.static-proof .big-stat { align-items: flex-start; flex-direction: column; gap: 4px; }
+.static-proof .big-stat span { display: block; line-height: 1.45; }
 .static-proof > p, .watch-proof > p { margin-top: 22px; }
 .static-proof > a { margin-top: auto; }
 .watch-proof .watch-row { margin-top: 4px; }
