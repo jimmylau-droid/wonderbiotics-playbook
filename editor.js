@@ -33,6 +33,21 @@
     });
     return true;
   }
+  function applyPublishedPreview() {
+    return fetch('playbook-content.json?editor-refresh=' + Date.now(), { cache: 'no-store' })
+      .then(function (response) { return response.ok ? response.json() : null; })
+      .then(function (page) {
+        var previewDocument = preview.contentDocument;
+        if (!page || !previewDocument) return false;
+        ['header', 'main', 'footer'].forEach(function (tag) {
+          var element = previewDocument.querySelector(tag);
+          if (element && page[tag] !== undefined) element.innerHTML = page[tag];
+        });
+        enableEditing();
+        return true;
+      })
+      .catch(function () { return false; });
+  }
   preview.addEventListener('load', function () {
     enableEditing();
     // content-store.js can apply the published snapshot shortly after load.
@@ -48,9 +63,7 @@
     }
     // Always let the shared published snapshot win over an older local draft
     // when the editor opens. This keeps the editor aligned with the microsite.
-    if (previewDocument && previewDocument.defaultView && previewDocument.defaultView.WonderContent) {
-      previewDocument.defaultView.WonderContent.loadPublishedPage().then(enableEditing);
-    }
+    applyPublishedPreview();
   });
   document.getElementById('save-content').addEventListener('click', function () {
     var page = pageFromPreview();
