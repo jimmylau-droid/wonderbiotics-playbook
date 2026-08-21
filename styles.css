@@ -155,6 +155,11 @@ h1 { max-width: 1000px; font-size: clamp(55px, 7.2vw, 108px); line-height: .98; 
 .setting-example-grid figure { margin: 0; min-width: 0; border: 1px solid var(--line); background: #fff; }
 .setting-example-grid img { display: block; width: 100%; aspect-ratio: 9 / 14; object-fit: cover; }
 .setting-example-grid figcaption { padding: 8px; color: var(--muted); font-size: 10px; line-height: 1.3; }
+.script-example[hidden] { display: none; }
+.script-example { margin-top: 24px; }
+.script-example figure { margin: 0; border: 1px solid var(--line); background: #fff; }
+.script-example img { display: block; width: 100%; max-height: 310px; object-fit: contain; }
+.script-example figcaption { padding: 10px; color: var(--muted); font-size: 10px; line-height: 1.4; }
 .lever-art { position: relative; overflow: hidden; min-height: 220px; margin: 18px 0 0; border: 1px solid var(--line); background: #fff; }
 .lever-art img { display: block; width: 100%; height: 220px; object-fit: cover; }
 .lever-art[data-index="1"] img, .lever-art[data-index="7"] img { object-fit: contain; background: #f7f8fa; }
