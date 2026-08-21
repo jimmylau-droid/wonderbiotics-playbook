@@ -138,6 +138,7 @@ h1 { max-width: 1000px; font-size: clamp(55px, 7.2vw, 108px); line-height: .98; 
 .message-angle-list strong { font-size: 14px; }
 .message-angle-list p { margin: 3px 0 0; color: var(--muted); font-size: 11px; line-height: 1.4; }
 .message-angle-list article > span { align-self: center; color: var(--blue); font-size: 9px; font-weight: 800; text-transform: uppercase; }
+.message-angle-list[hidden] { display: none; }
 .lever-art { position: relative; overflow: hidden; min-height: 220px; margin: 18px 0 0; border: 1px solid var(--line); background: #fff; }
 .lever-art img { display: block; width: 100%; height: 220px; object-fit: cover; }
 .lever-art[data-index="1"] img, .lever-art[data-index="7"] img { object-fit: contain; background: #f7f8fa; }
