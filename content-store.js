@@ -45,7 +45,11 @@
       if (values[key] !== undefined) el.innerHTML = values[key];
     });
   };
-  window.WonderContent.apply();
+  // The editor has its own controls and an iframe preview; never replace the
+  // editor shell with the playbook markup.
+  if (!document.body || !document.body.classList.contains('editor-page')) {
+    window.WonderContent.apply();
+  }
 
   // The public source of truth is a page snapshot committed to GitHub. A
   // browser-local draft may render first, but the published snapshot wins.
@@ -59,7 +63,7 @@
         if (!page || typeof page !== 'object') return null;
         ['header', 'main', 'footer'].forEach(function (tag) {
           var element = document.querySelector(tag);
-          if (element && page[tag] !== undefined) element.innerHTML = page[tag];
+          if (element && page[tag] !== undefined && !document.body.classList.contains('editor-page')) element.innerHTML = page[tag];
         });
         return page;
       })
