@@ -28,7 +28,10 @@
     document.querySelectorAll('[data-content="rule"]').forEach(function (el) { el.innerHTML = '<a class="rule-source-link" href="https://imrm1t9197.feishu.cn/wiki/SDsNwGTEliQCtakS1XFc4ELonhh?sheet=72zbtt" target="_blank" rel="noreferrer">竞品拆解分析是新变体的首要创意来源<em>点击查看竞品拆解分析 ↗</em></a>'; });
   }
   document.documentElement.lang = 'zh-CN';
-  translate(document.body);
-  var toggle = document.createElement('a'); toggle.href = 'index.html'; toggle.textContent = 'English'; toggle.className = 'language-toggle';
-  var label = document.querySelector('.security-label'); if (label) label.insertBefore(toggle, label.firstChild);
+  function finish() {
+    translate(document.body);
+    var toggle = document.createElement('a'); toggle.href = 'index.html'; toggle.textContent = 'English'; toggle.className = 'language-toggle';
+    var label = document.querySelector('.security-label'); if (label && !label.querySelector('.language-toggle')) label.insertBefore(toggle, label.firstChild);
+  }
+  if (window.WonderContent && window.WonderContent.loadPublishedPage) window.WonderContent.loadPublishedPage().then(finish); else finish();
 })();
