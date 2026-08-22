@@ -6,7 +6,7 @@
     provenIntro: 'Before asking for more assets, refresh the team on the combinations that have generated real orders, then use existing workflows to replicate the underlying pattern across new faces, formats, and controlled variations.',
     sourceTableTitle: 'What × Who × How × Validation × Opportunities',
     sourceTableNote: 'Values transcribed from the shared planning sheet. Treat validation as a current snapshot, not a permanent claim.',
-    rule: 'Competitor analysis is the <strong>primary</strong> idea source. Brand-new concepts are welcome when backed by voice-of-customer evidence and aligned with the Media Buyer. The eight levers are the isolation system. Performance results decide what becomes yours.',
+    rule: 'Competitor breakdown analysis is the <a class="rule-source-link" href="https://imrm1t9197.feishu.cn/wiki/SDsNwGTEliQCtakS1XFc4ELonhh?sheet=72zbtt" target="_blank" rel="noreferrer"><strong>primary</strong> idea source for new variations</a>. Brand-new concepts are welcome when backed by voice-of-customer evidence and aligned with the Media Buyer. The eight levers are the isolation system. Performance results decide what becomes yours.',
     engineTitle: 'Eight levers.<br>One clear learning.',
     engineIntro: 'Every lever begins as an observation from a competitor breakdown. Select a lever to see how the team converts that observation into a controlled test.'
   };
