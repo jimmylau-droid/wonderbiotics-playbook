@@ -97,6 +97,13 @@
   translations['visual system'] = '视觉系统';
   translations['Provide solutions to supply content assets for new creative formats to quickly test in the short term from the China team or external US agencies.'] = '通过中国团队或美国外部代理商，为新的创意形式快速提供短期测试所需的内容资产解决方案。';
   translations['creative formats'] = '创意形式';
+  translations['classifies the ask as Standard or Rapid'] = '将请求分类为标准或快速';
+  translations['KOL Team'] = 'KOL 团队';
+  translations['confirms creator availability and delivery timing'] = '确认创作者可用性和交付时间';
+  translations['KOL'] = 'KOL';
+  translations['produces the content asset requirements'] = '制作所需内容资产';
+  translations['Editor'] = '剪辑师';
+  translations['assembles the variation after asset QA'] = '在资产质检后组装变体';
   translations['Change the variable. Keep the rest stable. Record the learning.'] = '改变一个变量。保持其余部分稳定。记录测试结论。';
   Object.assign(translations, {
     'Primary  \nmessaging angles': '主要信息角度', 'Variables in\nthe test matrix': '测试矩阵中的变量', 'Proven working\nmessaging angles': '已验证有效的信息角度', '70% Proven working concepts\n30% Testing new concepts': '70% 已验证概念\n30% 新概念测试',
