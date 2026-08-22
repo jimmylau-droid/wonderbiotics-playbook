@@ -196,6 +196,12 @@ h1 { max-width: 1000px; font-size: clamp(55px, 7.2vw, 108px); line-height: .98; 
 .angle-list h3 { font-size: 23px; }
 .angle-list p { color: #bed7ff; line-height: 1.5; }
 .angle-list span { justify-self: end; padding: 7px 9px; color: var(--sky); border: 1px solid rgba(141,213,231,.4); font-size: 10px; font-weight: 800; text-transform: uppercase; }
+.matrix-detail .angle-list { margin-top: 58px; border-top-color: rgba(33,33,33,.16); }
+.matrix-detail .angle-list article { min-height: 92px; border-bottom-color: rgba(33,33,33,.16); }
+.matrix-detail .angle-list b, .matrix-detail .angle-list span { color: var(--blue); }
+.matrix-detail .angle-list h3 { margin: 0; font-size: 23px; }
+.matrix-detail .angle-list p { color: var(--muted); }
+.matrix-detail .angle-list span { padding: 0; border: 0; }
 .source-note { margin: 28px 0 0; color: #9bbce9; font-size: 11px; }
 
 .team-grid { display: grid; grid-template-columns: repeat(6,1fr); gap: 14px; }
