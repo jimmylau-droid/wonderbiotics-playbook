@@ -22,7 +22,7 @@
     'Start with the commercial lane': '从商业方向开始', 'Keep the proof focused': '让证据保持聚焦', 'Clone the visual logic': '复制视觉逻辑', 'QA before launch': '上线前完成质检', 'WEEKLY OUTPUT TARGET': '每周产出目标', 'Produce 10 new display ads every week.': '每周产出 10 个新的展示广告。',
     'GRAPHIC ELEMENTS': '图形元素', 'Graphic Designer': '平面设计师', 'SCIENCE AUTHORITY SUPPORT': '科学权威支持', 'Taylor · SAB Advisor': 'Taylor · SAB 顾问', 'Creator Team': '创作者团队', 'Jimmy + Becky': 'Jimmy + Becky',
     'MASTER PACKAGE': '主素材包', 'raw assets per Tier 1 creator': '每位 Tier 1 创作者的原始素材', 'Full reels × 1': '完整成片 × 1', 'Hooks × 4': '开头钩子 × 4', 'Voiceovers × 4': '配音 × 4', 'Product-in-use/Lifestyle Clips × 8': '产品使用 / 生活方式片段 × 8', 'Tier 2-4 KOLs assets halved': 'Tier 2-4 KOL 素材数量减半', 'THE STANDARD': '标准',
-    'One Collaboration.': '一次协作。', 'Many variations.': '多种变体。', 'More useful learning per asset.': '让每个资产带来更多有效学习。'
+    'One Collaboration.': '一次协作。', 'Many variations.': '多种变体。', 'Not more content.': '不只是更多内容。', 'Not just more content.': '不只是更多内容。', 'More useful learning per asset.': '让每个资产带来更多有效学习。', 'Back to the start ↑': '回到开头 ↑'
   };
   Object.assign(translations, {
     'Static Display Ads': '静态展示广告', 'START HERE · PROVEN WORKING': '从这里开始 · 已验证有效', 'Focus on the current proven work directions.': '聚焦当前已验证有效的方向。',
