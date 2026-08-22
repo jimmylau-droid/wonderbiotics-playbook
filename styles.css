@@ -263,6 +263,15 @@ h1 { max-width: 1000px; font-size: clamp(55px, 7.2vw, 108px); line-height: .98; 
 .route-lane.complex { background: #f5f5f5; border-top: 5px solid #212121; }
 .route-lane.design-lane { background: #fff8ed; border-top: 5px solid #e2a33a; }
 .route-lane.sab-lane { background: #f4f0ff; border-top: 5px solid #7655c7; }
+.static-ad-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+.static-ad-grid article { min-height: 230px; padding: 24px; border: 1px solid var(--line); border-top: 4px solid var(--sky); background: #fff; }
+.static-ad-grid article > b { display: block; color: var(--sky); font-size: 28px; line-height: 1; }
+.static-ad-grid article > span { display: block; margin-top: 20px; color: var(--muted); font-size: 10px; letter-spacing: .14em; font-weight: 700; }
+.static-ad-grid h3 { margin: 10px 0; font-size: 20px; }
+.static-ad-grid p { margin: 0; color: var(--muted); font-size: 13px; line-height: 1.55; }
+.static-ad-rule { display: grid; grid-template-columns: 150px 1fr; gap: 24px; margin-top: 18px; padding: 20px 24px; color: #fff; background: #0b0b0b; }
+.static-ad-rule b { color: var(--sky); font-size: 10px; }
+.static-ad-rule span { font-size: 13px; line-height: 1.5; }
 .lane-head span { color: var(--blue); font-size: 10px; font-weight: 800; }
 .complex .lane-head span { color: #212121; }
 .lane-head h3 { margin: 12px 0 8px; font-size: 32px; }
