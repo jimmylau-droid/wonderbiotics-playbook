@@ -12,11 +12,11 @@
     <div class="editor-heading"><p class="eyebrow">CONTENT EDITOR · INTERNAL</p><h1>Update any visible playbook copy.</h1><p>Click into the preview below and type directly in the page. Publish sends your approved copy to the shared GitHub Pages site, where every browser will see it.</p></div>
     <section class="publish-setup" aria-label="GitHub publishing setup">
       <div><span class="eyebrow">ONE-TIME SETUP</span><strong>Connect this editing session to GitHub</strong><p>Your repository-only token is held for this browser session only and is never written into the public site.</p></div>
-      <label>GitHub token<input id="github-token" type="password" autocomplete="off" placeholder="Paste a fine-grained token"></label>
+      <label>Fine-grained GitHub token<input id="github-token" type="password" autocomplete="off" placeholder="Paste a fine-grained token"></label>
       <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noreferrer">Create repository-only token</a>
     </section>
     <div class="editor-actions"><button class="primary-action" type="button" id="publish-content">Publish to site</button><button class="secondary-action" type="button" id="save-content">Save draft</button><button class="secondary-action" type="button" id="export-content">Export backup</button><button class="secondary-action" type="button" id="import-content">Import backup</button><input id="import-file" type="file" accept="application/json,.json" hidden><button class="secondary-action" type="button" id="reset-content">Reset draft</button><span id="save-status" class="editor-status" role="status"></span></div>
-    <section class="visual-editor" aria-label="Editable playbook preview"><div class="visual-editor-bar"><span>DIRECT EDIT MODE</span><span>Click text to edit · loaded from published playbook</span></div><iframe id="playbook-preview" title="Editable WonderBiotics playbook preview" src="index.html?editor-published=1"></iframe></section>
+    <section class="visual-editor" aria-label="Editable playbook preview"><div class="visual-editor-bar"><span>DIRECT EDIT MODE</span><span>Click text to edit · loaded from current published playbook</span></div><iframe id="playbook-preview" title="Editable WonderBiotics playbook preview" src="index.html?editor-published=1&published=latest"></iframe></section>
   </main>
   <script src="content-store.js"></script><script src="editor.js"></script>
 </body>
