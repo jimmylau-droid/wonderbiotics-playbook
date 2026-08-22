@@ -65,11 +65,23 @@
   translations['THE CREATIVE ENGINE'] = '创意引擎';
   translations['Eight levers.'] = '八个变量。';
   translations['One clear learning.'] = '一个清晰结论。';
+  translations['VARIABLE 01'] = '变量 01';
+  translations['VARIABLE 02'] = '变量 02';
+  translations['VARIABLE 03'] = '变量 03';
+  translations['VARIABLE 04'] = '变量 04';
+  translations['VARIABLE 05'] = '变量 05';
+  translations['VARIABLE 06'] = '变量 06';
+  translations['VARIABLE 07'] = '变量 07';
+  translations['VARIABLE 08'] = '变量 08';
+  translations['Primary'] = '主要';
+  translations['Variables in'] = '测试矩阵中的';
+  translations['Proven working'] = '已验证有效的';
+  translations['Brief'] = 'Brief';
   Object.assign(translations, {
     'Primary  \nmessaging angles': '主要信息角度', 'Variables in\nthe test matrix': '测试矩阵中的变量', 'Proven working\nmessaging angles': '已验证有效的信息角度', '70% Proven working concepts\n30% Testing new concepts': '70% 已验证概念\n30% 新概念测试',
     'Gut Probiotic vs. Weight Management': '肠道益生菌 vs. 体重管理', 'GLP-1 companion / Natural GLP-1': 'GLP-1 伴侣 / 天然 GLP-1', 'CPA · angle snapshot': 'CPA · 角度快照', 'Currently testing with new GLP1 science authorities and GLP1 Weight Loss Journey KOLS with approved RTB GLP1  landing page': '目前正在测试新的 GLP-1 科学权威和 GLP-1 减重旅程 KOL，并使用已批准 RTB 的 GLP-1 落地页。',
     'What × Who × How × Opportunities': 'What × Who × How × 机会', 'EXISTING FORMAT VARIATIONS': '现有形式变体', 'NEW KOL FACES & ASSETS': '新 KOL 面孔和资产', 'NEW FORMATS': '新形式', 'SOP for new format requests such as AI VSLs, Street Interviews, Podcast, Skits, Supermarket Confessions, etc.': 'AI VSL、街头采访、播客、短剧、超市采访等新形式请求 SOP。', 'SOP for new Static Ads focused on Menopause Belly and Gut vs. Weight Management Probiotic.': '聚焦更年期腹部和肠道 vs. 体重管理益生菌的静态广告 SOP。',
-    'Lack of creative diversity': '创意多样性不足', 'Unclear what is being tested each week': '每周测试内容不清晰', 'Long cycle for new creative assets (minimum 2-3 weeks)': '新创意资产周期过长（至少 2–3 周）', 'Learnings trapped in individual teams': '经验被困在各个团队中', 'Media Buyer forecasts weekly demand': '媒体买手预测每周需求', 'Controlled variables per test': '每次测试控制变量', 'Short turnaround time for "quick" asset requests': '快速资产请求的短交付周期', 'Daily feedback resets the roadmap': '每日反馈重置路线图', '01 · SIGNAL': '01 · 信号', '02 · BREAKDOWN': '02 · 拆解', '04 · BRIEF': '04 · Brief', 'Timed sequence: proof → mechanism → differentiation → offer': '时间顺序：证据 → 机制 → 差异化 → Offer'
+    'Lack of creative diversity': '创意多样性不足', 'Unclear what is being tested each week': '每周测试内容不清晰', 'Long cycle for new creative assets (minimum 2-3 weeks)': '新创意资产周期过长（至少 2–3 周）', 'Learnings trapped in individual teams': '经验被困在各个团队中', 'Media Buyer forecasts weekly demand': '媒体买手预测每周需求', 'Controlled variables per test': '每次测试控制变量', 'One deliberate variable per test': '每次测试只改变一个明确变量', 'Modular inputs unlock many fresh ads': '模块化输入可以解锁大量新广告', 'Short turnaround time for "quick" asset requests': '快速资产请求的短交付周期', 'Daily feedback resets the roadmap': '每日反馈重置路线图', '01 · SIGNAL': '01 · 信号', '02 · BREAKDOWN': '02 · 拆解', '03 · ISOLATE': '03 · 拆分变量', '04 · BRIEF': '04 · Brief', 'Media Buyer flags a gap': '媒体买手发现缺口', 'Content Manager dissects the ad': '内容经理拆解广告', 'Pod chooses the lever': '团队选择变量', 'Production gets a clear request': '制作团队收到清晰请求', 'Spend, fatigue, scaling needs, or a competitor pattern creates the request.': '花费、素材疲劳、规模化需求或竞品模式会产生请求。', 'Hook, script, setting, proof, format, CTA, and visual system are recorded.': '记录钩子、脚本、场景、证据、形式、CTA 和视觉系统。', 'The eight-variable matrix turns the observation into a controlled hypothesis.': '八变量矩阵将观察转化为受控假设。', 'Creators, designers, and editors receive modular inputs built to test one change.': '创作者、设计师和剪辑师收到用于测试单一变化的模块化输入。', 'Open visual example →': '打开视觉示例 →', 'Timed sequence: proof → mechanism → differentiation → offer': '时间顺序：证据 → 机制 → 差异化 → Offer', 'Primary messaging angles': '主要信息角度', 'Variables in': '测试矩阵中的变量', 'Proven working': '已验证有效的', 'messaging angles': '信息角度', '70% Proven working concepts': '70% 已验证概念', '30% Testing new concepts': '30% 新概念测试'
   });
   function translate(root) {
     var walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
@@ -98,7 +110,7 @@
       ['行动号召', '竞品拆解记录风险逆转、Offer 和行动指令，让团队能够单独测试转化装置。', '对比 30 天无风险试用和最高 35% 折扣，之前的画面全部保持不变。'],
       ['音频 / 背景音乐', '记录竞品的声音环境，再在不改变剪辑或信息的情况下单独测试。', '同一成片下对比无音乐、Lo-fi 节奏和直效广告节奏。']
     ];
-    document.querySelectorAll('.matrix-tab').forEach(function (tab) { tab.addEventListener('click', function () { var i = Number(tab.dataset.index), c = panelCopy[i]; setTimeout(function () { var title = document.querySelector('#matrix-title'), desc = document.querySelector('#matrix-description'); if (title) title.textContent = c[0]; if (desc) desc.textContent = c[1]; }, 0); }); });
+    document.querySelectorAll('.matrix-tab').forEach(function (tab) { tab.addEventListener('click', function () { var i = Number(tab.dataset.index), c = panelCopy[i]; setTimeout(function () { var number = document.querySelector('#matrix-number'), title = document.querySelector('#matrix-title'), desc = document.querySelector('#matrix-description'); if (number) number.textContent = '变量 ' + String(i + 1).padStart(2, '0'); if (title) title.textContent = c[0]; if (desc) desc.textContent = c[1]; }, 0); }); });
     var first = document.querySelector('.matrix-tab.active'); if (first) first.click();
     var toggle = document.createElement('a'); toggle.href = 'index.html'; toggle.textContent = 'English'; toggle.className = 'language-toggle';
     var label = document.querySelector('.security-label'); if (label && !label.querySelector('.language-toggle')) label.insertBefore(toggle, label.firstChild);
