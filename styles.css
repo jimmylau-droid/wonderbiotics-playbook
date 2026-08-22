@@ -270,10 +270,12 @@ h1 { max-width: 1000px; font-size: clamp(55px, 7.2vw, 108px); line-height: .98; 
 .static-ad-grid article > span { display: block; color: #075cff; font-size: 10px; letter-spacing: .12em; font-weight: 800; }
 .static-ad-grid h3 { margin: 10px 0; font-size: 20px; line-height: 1.15; }
 .static-ad-grid p { margin: 0; color: #687386; font-size: 12px; line-height: 1.55; }
-.rtb-options { display: grid; gap: 6px; margin-top: 14px; }
-.rtb-options div { display: grid; grid-template-columns: 92px 1fr; gap: 8px; padding-top: 7px; border-top: 1px solid #dce5f0; }
+.rtb-card { padding-right: 22px; }
+.rtb-options { display: grid; grid-template-columns: 1fr 1fr; gap: 8px 12px; margin-top: 14px; }
+.rtb-options div { display: grid; gap: 4px; padding: 8px 10px; border: 1px solid #dce5f0; background: #f7faff; }
 .rtb-options strong { color: #075cff; font-size: 9px; letter-spacing: .08em; }
 .rtb-options span, .rtb-card small { color: #687386; font-size: 11px; line-height: 1.4; }
+.rtb-options div:last-child { grid-column: 1 / -1; }
 .rtb-card small { display: block; margin-top: 12px; }
 .static-ad-rule { display: grid; grid-template-columns: 150px 1fr; gap: 24px; margin-top: 14px; padding: 20px 24px; color: #fff; background: #07101f; }
 .static-ad-rule b { color: var(--sky); font-size: 10px; }
