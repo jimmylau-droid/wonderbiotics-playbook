@@ -270,6 +270,10 @@ h1 { max-width: 1000px; font-size: clamp(55px, 7.2vw, 108px); line-height: .98; 
 .static-ad-grid article > span { display: block; color: #075cff; font-size: 10px; letter-spacing: .12em; font-weight: 800; }
 .static-ad-grid h3 { margin: 10px 0; font-size: 20px; line-height: 1.15; }
 .static-ad-grid p { margin: 0; color: #687386; font-size: 12px; line-height: 1.55; }
+.direction-options { display: grid; gap: 8px; margin-top: 14px; }
+.direction-options div { display: grid; gap: 4px; padding: 10px 12px; border: 1px solid #dce5f0; background: #f7faff; }
+.direction-options strong { color: #075cff; font-size: 10px; letter-spacing: .06em; }
+.direction-options span { color: #687386; font-size: 11px; }
 .rtb-card { padding-right: 22px; }
 .rtb-options { display: grid; grid-template-columns: 1fr 1fr; gap: 8px 12px; margin-top: 14px; }
 .rtb-options div { display: grid; gap: 4px; padding: 8px 10px; border: 1px solid #dce5f0; background: #f7faff; }
