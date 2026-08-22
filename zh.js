@@ -164,4 +164,6 @@
   if (window.WonderContent && window.WonderContent.loadPublishedPage) window.WonderContent.loadPublishedPage().then(finish); else finish();
   window.setTimeout(finish, 600);
   window.setTimeout(finish, 1600);
+  window.setTimeout(finish, 3000);
+  window.setTimeout(finish, 5000);
 })();
