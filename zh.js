@@ -87,6 +87,14 @@
   translations['Variables in'] = '测试矩阵中的';
   translations['Proven working'] = '已验证有效的';
   translations['Brief'] = 'Brief';
+  translations['dissects the ad'] = '拆解广告';
+  translations['Hook'] = '开头钩子';
+  translations['script'] = '脚本';
+  translations['setting'] = '场景';
+  translations['proof'] = '证据';
+  translations['format'] = '形式';
+  translations['CTA'] = 'CTA';
+  translations['visual system'] = '视觉系统';
   Object.assign(translations, {
     'Primary  \nmessaging angles': '主要信息角度', 'Variables in\nthe test matrix': '测试矩阵中的变量', 'Proven working\nmessaging angles': '已验证有效的信息角度', '70% Proven working concepts\n30% Testing new concepts': '70% 已验证概念\n30% 新概念测试',
     'Gut Probiotic vs. Weight Management': '肠道益生菌 vs. 体重管理', 'GLP-1 companion / Natural GLP-1': 'GLP-1 伴侣 / 天然 GLP-1', 'CPA · angle snapshot': 'CPA · 角度快照', 'Currently testing with new GLP1 science authorities and GLP1 Weight Loss Journey KOLS with approved RTB GLP1  landing page': '目前正在测试新的 GLP-1 科学权威和 GLP-1 减重旅程 KOL，并使用已批准 RTB 的 GLP-1 落地页。',
