@@ -22,7 +22,7 @@
     'Start with the commercial lane': '从商业方向开始', 'Keep the proof focused': '让证据保持聚焦', 'Clone the visual logic': '复制视觉逻辑', 'QA before launch': '上线前完成质检', 'WEEKLY OUTPUT TARGET': '每周产出目标', 'Produce 10 new display ads every week.': '每周产出 10 个新的展示广告。',
     'GRAPHIC ELEMENTS': '图形元素', 'Graphic Designer': '平面设计师', 'SCIENCE AUTHORITY SUPPORT': '科学权威支持', 'Taylor · SAB Advisor': 'Taylor · SAB 顾问', 'Creator Team': '创作者团队', 'Jimmy + Becky': 'Jimmy + Becky',
     'MASTER PACKAGE': '主素材包', 'raw assets per Tier 1 creator': '每位 Tier 1 创作者的原始素材', 'Full reels × 1': '完整成片 × 1', 'Hooks × 4': '开头钩子 × 4', 'Voiceovers × 4': '配音 × 4', 'Product-in-use/Lifestyle Clips × 8': '产品使用 / 生活方式片段 × 8', 'Tier 2-4 KOLs assets halved': 'Tier 2-4 KOL 素材数量减半', 'THE STANDARD': '标准',
-    'One Collaboration.': '一次协作。', 'Many variations.': '多种变体。', 'Not more content.': '不只是更多内容。', 'Not just more content.': '不只是更多内容。', 'More useful learning per asset.': '让每个资产带来更多有效学习。', 'Back to the start ↑': '回到开头 ↑'
+    'One Collaboration.': '一次协作。', 'Many variations.': '多种变体。', 'More useful learning per asset.': '让每个资产带来更多有效学习。'
   };
   Object.assign(translations, {
     'Static Display Ads': '静态展示广告', 'START HERE · PROVEN WORKING': '从这里开始 · 已验证有效', 'Focus on the current proven work directions.': '聚焦当前已验证有效的方向。',
@@ -87,42 +87,6 @@
   translations['Variables in'] = '测试矩阵中的';
   translations['Proven working'] = '已验证有效的';
   translations['Brief'] = 'Brief';
-  translations['dissects the ad'] = '拆解广告';
-  translations['Hook'] = '开头钩子';
-  translations['script'] = '脚本';
-  translations['setting'] = '场景';
-  translations['proof'] = '证据';
-  translations['format'] = '形式';
-  translations['CTA'] = 'CTA';
-  translations['visual system'] = '视觉系统';
-  translations['Provide solutions to supply content assets for new creative formats to quickly test in the short term from the China team or external US agencies.'] = '通过中国团队或美国外部代理商，为新的创意形式快速提供短期测试所需的内容资产解决方案。';
-  translations['creative formats'] = '创意形式';
-  translations['形式s'] = '创意形式';
-  translations['CRAFT'] = '制作执行';
-  translations['Provide solutions to supply content assets for new creative 形式s to quickly test in the short term from the China team or external US agencies.'] = '通过中国团队或美国外部代理商，为新的创意形式快速提供短期测试所需的内容资产解决方案。';
-  translations['classifies the ask as Standard or Rapid'] = '将请求分类为标准或快速';
-  translations['KOL Team'] = 'KOL 团队';
-  translations['confirms creator availability and delivery timing'] = '确认创作者可用性和交付时间';
-  translations['KOL'] = 'KOL';
-  translations['produces the content asset requirements'] = '制作所需内容资产';
-  translations['Editor'] = '剪辑师';
-  translations['assembles the variation after asset QA'] = '在资产质检后组装变体';
-  translations['Media Buyer +'] = '媒体买手 +';
-  translations['raise in daily meeting with evidence'] = '带着证据在每日会议中提出';
-  translations['delivers brief requirements and'] = '提供 Brief 要求和';
-  translations['select execution route'] = '选择执行路径';
-  translations['raise in daily standup with evidence'] = '带着证据在每日站会上提出';
-  translations['Route graphical element support requests that make the message, mechanism, or social proof easier for consumers to understand in a visual look and feel that matches our brand identity.'] = '将能让信息、机制或社会证据更易理解的图形元素请求路由给设计师，并确保视觉风格符合品牌形象。';
-  translations['Social Proof/Quotes'] = '社会证据 / 引用';
-  translations['briefs the graphic designer on requirements, dimensions, and placement'] = '向平面设计师说明要求、尺寸和放置位置';
-  translations['creates the element and source files'] = '制作图形元素和源文件';
-  translations['applies the approved element across the test variations'] = '将批准的元素应用到各个测试变体中';
-  translations['Request Taylor support when the script or asset needs scientific authority, expert language, or a credible SAB testimonial for Science Authority KOL content.'] = '当脚本或素材需要科学权威、专家语言或可信的 SAB 证言时，请求 Taylor 支持科学权威 KOL 内容。';
-  translations['submit the angle, RTB, script draft, references and requested deliverables to Taylor'] = '向 Taylor 提交信息角度、RTB、脚本草稿、参考资料和所需交付物';
-  translations['supports compliant science-authority scripting and terminology'] = '支持合规的科学权威脚本和术语';
-  translations['provides approved quotes or testimonials when available'] = '在可行时提供批准的引用或证言';
-  translations['packages the finalized content request to KOL team workflow (standard vs. quick)'] = '将最终内容请求整理后交给 KOL 团队工作流（标准或快速）';
-  translations['Change the variable. Keep the rest stable. Record the learning.'] = '改变一个变量。保持其余部分稳定。记录测试结论。';
   Object.assign(translations, {
     'Primary  \nmessaging angles': '主要信息角度', 'Variables in\nthe test matrix': '测试矩阵中的变量', 'Proven working\nmessaging angles': '已验证有效的信息角度', '70% Proven working concepts\n30% Testing new concepts': '70% 已验证概念\n30% 新概念测试',
     'Gut Probiotic vs. Weight Management': '肠道益生菌 vs. 体重管理', 'GLP-1 companion / Natural GLP-1': 'GLP-1 伴侣 / 天然 GLP-1', 'CPA · angle snapshot': 'CPA · 角度快照', 'Currently testing with new GLP1 science authorities and GLP1 Weight Loss Journey KOLS with approved RTB GLP1  landing page': '目前正在测试新的 GLP-1 科学权威和 GLP-1 减重旅程 KOL，并使用已批准 RTB 的 GLP-1 落地页。',
@@ -164,6 +128,4 @@
   if (window.WonderContent && window.WonderContent.loadPublishedPage) window.WonderContent.loadPublishedPage().then(finish); else finish();
   window.setTimeout(finish, 600);
   window.setTimeout(finish, 1600);
-  window.setTimeout(finish, 3000);
-  window.setTimeout(finish, 5000);
 })();
