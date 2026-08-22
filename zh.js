@@ -18,10 +18,12 @@
     var nodes = [], node;
     while ((node = walker.nextNode())) nodes.push(node);
     nodes.forEach(function (text) {
-      var value = text.nodeValue.trim();
+      var value = text.nodeValue;
       Object.keys(translations).forEach(function (key) {
-        if (value === key) text.nodeValue = translations[key].replace(/<br>/g, '\n');
+        if (key.indexOf('<') >= 0) return;
+        if (value.indexOf(key) >= 0) value = value.split(key).join(translations[key]);
       });
+      text.nodeValue = value;
     });
     document.querySelectorAll('[data-content="rule"]').forEach(function (el) { el.innerHTML = '<a class="rule-source-link" href="https://imrm1t9197.feishu.cn/wiki/SDsNwGTEliQCtakS1XFc4ELonhh?sheet=72zbtt" target="_blank" rel="noreferrer">竞品拆解分析是新变体的首要创意来源<em>点击查看竞品拆解分析 ↗</em></a>'; });
   }
