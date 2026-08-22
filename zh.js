@@ -114,6 +114,11 @@
   translations['briefs the graphic designer on requirements, dimensions, and placement'] = '向平面设计师说明要求、尺寸和放置位置';
   translations['creates the element and source files'] = '制作图形元素和源文件';
   translations['applies the approved element across the test variations'] = '将批准的元素应用到各个测试变体中';
+  translations['Request Taylor support when the script or asset needs scientific authority, expert language, or a credible SAB testimonial for Science Authority KOL content.'] = '当脚本或素材需要科学权威、专家语言或可信的 SAB 证言时，请求 Taylor 支持科学权威 KOL 内容。';
+  translations['submit the angle, RTB, script draft, references and requested deliverables to Taylor'] = '向 Taylor 提交信息角度、RTB、脚本草稿、参考资料和所需交付物';
+  translations['supports compliant science-authority scripting and terminology'] = '支持合规的科学权威脚本和术语';
+  translations['provides approved quotes or testimonials when available'] = '在可行时提供批准的引用或证言';
+  translations['packages the finalized content request to KOL team workflow (standard vs. quick)'] = '将最终内容请求整理后交给 KOL 团队工作流（标准或快速）';
   translations['Change the variable. Keep the rest stable. Record the learning.'] = '改变一个变量。保持其余部分稳定。记录测试结论。';
   Object.assign(translations, {
     'Primary  \nmessaging angles': '主要信息角度', 'Variables in\nthe test matrix': '测试矩阵中的变量', 'Proven working\nmessaging angles': '已验证有效的信息角度', '70% Proven working concepts\n30% Testing new concepts': '70% 已验证概念\n30% 新概念测试',
