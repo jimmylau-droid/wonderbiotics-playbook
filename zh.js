@@ -95,6 +95,7 @@
   translations['format'] = '形式';
   translations['CTA'] = 'CTA';
   translations['visual system'] = '视觉系统';
+  translations['Change the variable. Keep the rest stable. Record the learning.'] = '改变一个变量。保持其余部分稳定。记录测试结论。';
   Object.assign(translations, {
     'Primary  \nmessaging angles': '主要信息角度', 'Variables in\nthe test matrix': '测试矩阵中的变量', 'Proven working\nmessaging angles': '已验证有效的信息角度', '70% Proven working concepts\n30% Testing new concepts': '70% 已验证概念\n30% 新概念测试',
     'Gut Probiotic vs. Weight Management': '肠道益生菌 vs. 体重管理', 'GLP-1 companion / Natural GLP-1': 'GLP-1 伴侣 / 天然 GLP-1', 'CPA · angle snapshot': 'CPA · 角度快照', 'Currently testing with new GLP1 science authorities and GLP1 Weight Loss Journey KOLS with approved RTB GLP1  landing page': '目前正在测试新的 GLP-1 科学权威和 GLP-1 减重旅程 KOL，并使用已批准 RTB 的 GLP-1 落地页。',
