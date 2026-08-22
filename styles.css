@@ -523,3 +523,9 @@ footer { display: flex; justify-content: space-between; padding: 25px 28px; colo
   .signal-panel strong { font-size: 22px; }
   .variation-map { grid-template-columns: 1fr; }
 }
+.engine-source-link { margin: -18px 0 30px; padding: 14px 22px; border: 1px solid #d7e0eb; background: #f5f8fc; color: #07101f; text-decoration: none; display: grid; grid-template-columns: auto 1fr auto; gap: 24px; align-items: center; }
+.engine-source-link span { color: #075cff; font-size: 11px; }
+.engine-source-link span b { display: block; font-size: 9px; letter-spacing: .1em; margin-bottom: 3px; }
+.engine-source-link strong { font-size: 12px; font-weight: 600; color: #536176; }
+.engine-source-link i { font-style: normal; color: #075cff; font-size: 18px; }
+@media (max-width: 700px) { .engine-source-link { grid-template-columns: 1fr auto; } .engine-source-link strong { grid-column: 1 / -1; grid-row: 2; } }
