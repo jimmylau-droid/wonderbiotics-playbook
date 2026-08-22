@@ -261,6 +261,8 @@ h1 { max-width: 1000px; font-size: clamp(55px, 7.2vw, 108px); line-height: .98; 
 .route-lane { padding: 34px; border: 1px solid var(--line); }
 .route-lane.routine { background: #eef7ff; border-top: 5px solid var(--sky); }
 .route-lane.complex { background: #f5f5f5; border-top: 5px solid #212121; }
+.route-lane.design-lane { background: #fff8ed; border-top: 5px solid #e2a33a; }
+.route-lane.sab-lane { background: #f4f0ff; border-top: 5px solid #7655c7; }
 .lane-head span { color: var(--blue); font-size: 10px; font-weight: 800; }
 .complex .lane-head span { color: #212121; }
 .lane-head h3 { margin: 12px 0 8px; font-size: 32px; }
