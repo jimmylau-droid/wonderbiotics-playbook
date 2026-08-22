@@ -25,6 +25,11 @@
     'One Collaboration.': '一次协作。', 'Many variations.': '多种变体。', 'More useful learning per asset.': '让每个资产带来更多有效学习。'
   };
   Object.assign(translations, {
+    'Static Display Ads': '静态展示广告', 'START HERE · PROVEN WORKING': '从这里开始 · 已验证有效', 'Focus on the current proven work directions.': '聚焦当前已验证有效的方向。',
+    'Use current workflow to conduct controlled variation testing of testing winners starting with competitor analysis X existing KOL faces + new KOL faces. ': '基于当前工作流，从竞品分析、现有 KOL 面孔和新 KOL 面孔开始，对赢家进行受控变体测试。',
+    'Menopause mid-section belly fat': '更年期腰腹部脂肪', 'Fitness instructors + science authorities + Menopause Age Weight Loss Journey': '健身教练 + 科学权威 + 更年期减重旅程', 'Creator Educational sharing + remix': '创作者科普分享 + Remix 变体', 'order rate': '订单率', 'spend': '花费', 'avg revenue/ad': '平均广告收入',
+    'Static display ads follow a dedicated workflow. Every image should make one product direction and one specific reason-to-believe easy to understand.': '静态展示广告遵循独立工作流。每张图片都应让一个产品方向和一个具体信任理由易于理解。', 'Select one product direction before choosing the RTB.': '先选择一个产品方向，再选择 RTB。', 'Weight-management direction': '体重管理方向', 'Category-comparison direction': '品类对比方向', 'Choose one proof job per image. Do not combine multiple selling points.': '每张图片只承担一个证据任务，不要组合多个卖点。', 'Research, ingredients, or study data': '研究、成分或研究数据', 'How the product works': '产品如何发挥作用', 'Customer reviews or KOL quotes': '客户评价或 KOL 引用', 'Expert opinions, SAB quotes, or third-party endorsements': '专家观点、SAB 引用或第三方背书', 'Risk reversal or purchase reassurance': '风险逆转或购买保障',
+    'START HERE · PROVEN SIGNALS': '从这里开始 · 已验证信号', 'WHAT (Message angle)': 'WHAT（信息角度）', 'WHO (KOL)': 'WHO（KOL）', 'HOW (Format)': 'HOW（内容形式）',
     'A creative system to clarify existing workflows when building out variations of winning ads and establish new workflows for testing new creative formats to improve creative diversity to help scale to new prospects.': '一套以创意为核心的系统：明确赢家广告变体的现有工作流，并建立测试新创意形式的新工作流，通过提升创意多样性触达更多潜在客户。',
     'Use current workflow to conduct controlled variation testing of testing winners starting with competitor analysis X existing KOL faces + new KOL faces.': '基于当前工作流，从竞品分析、现有 KOL 面孔和新 KOL 面孔开始，对赢家进行受控变体测试。',
     'Fitness instructors + science authorities + Menopause Age Weight Loss Journey': '健身教练 + 科学权威 + 更年期减重旅程', 'Creator Educational sharing + remix': '创作者科普分享 + Remix 变体',
