@@ -73,4 +73,6 @@
     var label = document.querySelector('.security-label'); if (label && !label.querySelector('.language-toggle')) label.insertBefore(toggle, label.firstChild);
   }
   if (window.WonderContent && window.WonderContent.loadPublishedPage) window.WonderContent.loadPublishedPage().then(finish); else finish();
+  window.setTimeout(finish, 600);
+  window.setTimeout(finish, 1600);
 })();
