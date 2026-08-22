@@ -1,5 +1,6 @@
 (function () {
   var translations = {
+    'After aligning with the media buyer, the 内容经理 defines the format and required assets for the following 2 weeks. 请求根据所需能力进入四条工作流之一。.': '与媒体买手对齐后，内容经理定义未来两周所需的形式和资产。请求根据所需能力进入四条工作流之一。',
     'The Shift': '战略转变', 'Winning Variations': '赢家变体', 'The Engine': '创意引擎', 'The Pod': '团队分工', 'RACI': 'RACI', 'Asset Routing': '资产请求路由', 'Edit copy': '编辑文案',
     'DTC CONTENT STRATEGY 2.0 · TEAM PLAYBOOK': 'DTC 内容策略 2.0 · 团队手册', 'WonderBiotics DTC Playbook 2.0': 'WonderBiotics DTC 内容策略手册 2.0',
     'From recycling assets<br>to engineering winners.': '从重复利用素材<br>到系统化打造赢家。',
