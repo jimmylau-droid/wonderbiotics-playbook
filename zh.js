@@ -89,7 +89,7 @@
   function finish() {
     translate(document.body);
     var panelCopy = [
-      ['主要信息角度', '竞品拆解确定正在测试的战略承诺。团队将其映射到已批准的 WonderBiotics 信息角度及对应信任理由。', '在创作者、形式、钩子和 Offer 保持不变的情况下，对比更年期腹部减脂与天然 GLP-1。'],
+      ['主要信息角度', '竞品拆解确定正在测试的战略承诺。团队将其映射到已批准的 WonderBiotics 信息角度及对应信任理由。'],
       ['开头钩子', '竞品拆解记录第一个视觉动作和开场台词。团队将视觉和语言作为一个注意力装置组合测试，也会在需要更精确拆分时单独改变其中一部分。', '创作者靠近镜头并展示腰腹，同时说出反常识主张；对比同一创作者从产品开始并直接说出结果。'],
       ['场景', '竞品拆解记录故事发生的地点，以及该场景为什么有效。团队单独测试场景变量。', '方向盘前、厨房和杂货店通道，在创作者和脚本不变的情况下进行对比。'],
       ['主体脚本', '将竞品叙事拆成问题、机制、证据、异议和 Offer，再测试不同的叙事顺序。', '先讲机制 vs. 先讲真实经历，同时保持钩子、创作者、场景和 CTA 不变。'],
@@ -98,7 +98,7 @@
       ['行动号召', '竞品拆解记录风险逆转、Offer 和行动指令，让团队能够单独测试转化装置。', '对比 30 天无风险试用和最高 35% 折扣，之前的画面全部保持不变。'],
       ['音频 / 背景音乐', '记录竞品的声音环境，再在不改变剪辑或信息的情况下单独测试。', '同一成片下对比无音乐、Lo-fi 节奏和直效广告节奏。']
     ];
-    document.querySelectorAll('.matrix-tab').forEach(function (tab) { tab.addEventListener('click', function () { var i = Number(tab.dataset.index), c = panelCopy[i]; setTimeout(function () { var title = document.querySelector('#matrix-title'), desc = document.querySelector('#matrix-description'), ex = document.querySelector('#matrix-example'); if (title) title.textContent = c[0]; if (desc) desc.textContent = c[1]; if (ex) ex.textContent = c[2]; }, 0); }); });
+    document.querySelectorAll('.matrix-tab').forEach(function (tab) { tab.addEventListener('click', function () { var i = Number(tab.dataset.index), c = panelCopy[i]; setTimeout(function () { var title = document.querySelector('#matrix-title'), desc = document.querySelector('#matrix-description'); if (title) title.textContent = c[0]; if (desc) desc.textContent = c[1]; }, 0); }); });
     var first = document.querySelector('.matrix-tab.active'); if (first) first.click();
     var toggle = document.createElement('a'); toggle.href = 'index.html'; toggle.textContent = 'English'; toggle.className = 'language-toggle';
     var label = document.querySelector('.security-label'); if (label && !label.querySelector('.language-toggle')) label.insertBefore(toggle, label.firstChild);
