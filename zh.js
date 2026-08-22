@@ -104,6 +104,11 @@
   translations['produces the content asset requirements'] = '制作所需内容资产';
   translations['Editor'] = '剪辑师';
   translations['assembles the variation after asset QA'] = '在资产质检后组装变体';
+  translations['Media Buyer +'] = '媒体买手 +';
+  translations['raise in daily meeting with evidence'] = '带着证据在每日会议中提出';
+  translations['delivers brief requirements and'] = '提供 Brief 要求和';
+  translations['select execution route'] = '选择执行路径';
+  translations['raise in daily standup with evidence'] = '带着证据在每日站会上提出';
   translations['Change the variable. Keep the rest stable. Record the learning.'] = '改变一个变量。保持其余部分稳定。记录测试结论。';
   Object.assign(translations, {
     'Primary  \nmessaging angles': '主要信息角度', 'Variables in\nthe test matrix': '测试矩阵中的变量', 'Proven working\nmessaging angles': '已验证有效的信息角度', '70% Proven working concepts\n30% Testing new concepts': '70% 已验证概念\n30% 新概念测试',
