@@ -95,6 +95,8 @@
   translations['format'] = '形式';
   translations['CTA'] = 'CTA';
   translations['visual system'] = '视觉系统';
+  translations['Provide solutions to supply content assets for new creative formats to quickly test in the short term from the China team or external US agencies.'] = '通过中国团队或美国外部代理商，为新的创意形式快速提供短期测试所需的内容资产解决方案。';
+  translations['creative formats'] = '创意形式';
   translations['Change the variable. Keep the rest stable. Record the learning.'] = '改变一个变量。保持其余部分稳定。记录测试结论。';
   Object.assign(translations, {
     'Primary  \nmessaging angles': '主要信息角度', 'Variables in\nthe test matrix': '测试矩阵中的变量', 'Proven working\nmessaging angles': '已验证有效的信息角度', '70% Proven working concepts\n30% Testing new concepts': '70% 已验证概念\n30% 新概念测试',
