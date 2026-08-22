@@ -65,6 +65,12 @@
   translations['THE CREATIVE ENGINE'] = '创意引擎';
   translations['Eight levers.'] = '八个变量。';
   translations['One clear learning.'] = '一个清晰结论。';
+  Object.assign(translations, {
+    'Primary  \nmessaging angles': '主要信息角度', 'Variables in\nthe test matrix': '测试矩阵中的变量', 'Proven working\nmessaging angles': '已验证有效的信息角度', '70% Proven working concepts\n30% Testing new concepts': '70% 已验证概念\n30% 新概念测试',
+    'Gut Probiotic vs. Weight Management': '肠道益生菌 vs. 体重管理', 'GLP-1 companion / Natural GLP-1': 'GLP-1 伴侣 / 天然 GLP-1', 'CPA · angle snapshot': 'CPA · 角度快照', 'Currently testing with new GLP1 science authorities and GLP1 Weight Loss Journey KOLS with approved RTB GLP1  landing page': '目前正在测试新的 GLP-1 科学权威和 GLP-1 减重旅程 KOL，并使用已批准 RTB 的 GLP-1 落地页。',
+    'What × Who × How × Opportunities': 'What × Who × How × 机会', 'EXISTING FORMAT VARIATIONS': '现有形式变体', 'NEW KOL FACES & ASSETS': '新 KOL 面孔和资产', 'NEW FORMATS': '新形式', 'SOP for new format requests such as AI VSLs, Street Interviews, Podcast, Skits, Supermarket Confessions, etc.': 'AI VSL、街头采访、播客、短剧、超市采访等新形式请求 SOP。', 'SOP for new Static Ads focused on Menopause Belly and Gut vs. Weight Management Probiotic.': '聚焦更年期腹部和肠道 vs. 体重管理益生菌的静态广告 SOP。',
+    'Lack of creative diversity': '创意多样性不足', 'Unclear what is being tested each week': '每周测试内容不清晰', 'Long cycle for new creative assets (minimum 2-3 weeks)': '新创意资产周期过长（至少 2–3 周）', 'Learnings trapped in individual teams': '经验被困在各个团队中', 'Media Buyer forecasts weekly demand': '媒体买手预测每周需求', 'Controlled variables per test': '每次测试控制变量', 'Short turnaround time for "quick" asset requests': '快速资产请求的短交付周期', 'Daily feedback resets the roadmap': '每日反馈重置路线图', '01 · SIGNAL': '01 · 信号', '02 · BREAKDOWN': '02 · 拆解', '04 · BRIEF': '04 · Brief', 'Timed sequence: proof → mechanism → differentiation → offer': '时间顺序：证据 → 机制 → 差异化 → Offer'
+  });
   function translate(root) {
     var walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
     var nodes = [], node;
