@@ -98,6 +98,7 @@
   translations['Provide solutions to supply content assets for new creative formats to quickly test in the short term from the China team or external US agencies.'] = '通过中国团队或美国外部代理商，为新的创意形式快速提供短期测试所需的内容资产解决方案。';
   translations['creative formats'] = '创意形式';
   translations['形式s'] = '创意形式';
+  translations['CRAFT'] = '制作执行';
   translations['Provide solutions to supply content assets for new creative 形式s to quickly test in the short term from the China team or external US agencies.'] = '通过中国团队或美国外部代理商，为新的创意形式快速提供短期测试所需的内容资产解决方案。';
   translations['classifies the ask as Standard or Rapid'] = '将请求分类为标准或快速';
   translations['KOL Team'] = 'KOL 团队';
