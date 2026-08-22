@@ -109,6 +109,11 @@
   translations['delivers brief requirements and'] = '提供 Brief 要求和';
   translations['select execution route'] = '选择执行路径';
   translations['raise in daily standup with evidence'] = '带着证据在每日站会上提出';
+  translations['Route graphical element support requests that make the message, mechanism, or social proof easier for consumers to understand in a visual look and feel that matches our brand identity.'] = '将能让信息、机制或社会证据更易理解的图形元素请求路由给设计师，并确保视觉风格符合品牌形象。';
+  translations['Social Proof/Quotes'] = '社会证据 / 引用';
+  translations['briefs the graphic designer on requirements, dimensions, and placement'] = '向平面设计师说明要求、尺寸和放置位置';
+  translations['creates the element and source files'] = '制作图形元素和源文件';
+  translations['applies the approved element across the test variations'] = '将批准的元素应用到各个测试变体中';
   translations['Change the variable. Keep the rest stable. Record the learning.'] = '改变一个变量。保持其余部分稳定。记录测试结论。';
   Object.assign(translations, {
     'Primary  \nmessaging angles': '主要信息角度', 'Variables in\nthe test matrix': '测试矩阵中的变量', 'Proven working\nmessaging angles': '已验证有效的信息角度', '70% Proven working concepts\n30% Testing new concepts': '70% 已验证概念\n30% 新概念测试',
