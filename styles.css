@@ -420,6 +420,18 @@ footer { display: flex; justify-content: space-between; padding: 25px 28px; colo
   .asset-orbit { grid-template-columns: 1fr 1fr; }
   footer { gap: 14px; flex-direction: column; }
 }
+
+/* The playbook is a desktop presentation; keep the message-angle rows intact
+   when an embedded preview reports a narrow CSS viewport. */
+.matrix-detail .angle-list article {
+  grid-template-columns: 65px minmax(0, 1fr) 190px !important;
+  grid-template-rows: auto auto !important;
+  padding: 13px 0 !important;
+}
+.matrix-detail .angle-list article > b { grid-column: 1 !important; grid-row: 1 / span 2 !important; }
+.matrix-detail .angle-list article > h3 { grid-column: 2 !important; grid-row: 1 !important; }
+.matrix-detail .angle-list article > p { grid-column: 2 !important; grid-row: 2 !important; margin: 3px 0 0 !important; }
+.matrix-detail .angle-list article > span { grid-column: 3 !important; grid-row: 1 / span 2 !important; justify-self: end !important; }
 .teardown-link{margin-top:18px;padding:22px 24px;background:#075cff;color:#fff;text-decoration:none;display:grid;grid-template-columns:auto 1fr auto;gap:20px;align-items:center}.teardown-link span{font-size:10px;font-weight:800;letter-spacing:.1em}.teardown-link strong{font-size:16px}.teardown-link b{font-size:24px}
 .step-example{display:inline-block;margin-top:12px;color:#075cff;font-size:11px;font-weight:800;text-decoration:none}.engine-example-link{margin:-26px 0 30px;padding:18px 22px;border:1px solid #075cff;color:#07101f;text-decoration:none;display:grid;grid-template-columns:auto 1fr auto;gap:24px;align-items:center}.engine-example-link span{color:#075cff;font-size:12px}.engine-example-link span b{display:block;font-size:9px;letter-spacing:.1em;margin-bottom:3px}.engine-example-link strong{font-size:13px}.engine-example-link i{font-style:normal;color:#075cff;font-size:22px}@media(max-width:700px){.engine-example-link{grid-template-columns:1fr auto}.engine-example-link strong{grid-column:1/-1;grid-row:2}.teardown-link{grid-template-columns:1fr auto}.teardown-link span{grid-column:1/-1}}
 .format-library{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:-18px 0 30px}.format-library a{padding:16px 20px;background:#eef4ff;color:#07101f;text-decoration:none;display:grid;grid-template-columns:auto 1fr auto;gap:14px;align-items:center}.format-library b{font-size:9px;color:#075cff}.format-library span{font-size:13px;font-weight:700}.format-library i{font-style:normal;font-size:11px;color:#075cff}@media(max-width:700px){.format-library{grid-template-columns:1fr}}
